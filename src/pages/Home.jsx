@@ -14,7 +14,6 @@ function Home() {
     category === "全部"
       ? ramanData
       : ramanData.filter((r) => r.category === category);
-
   return (
     <div className="mx-auto main-layout bg-[#F3E8D0] min-h-screen">
       <Header />
