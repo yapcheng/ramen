@@ -1,6 +1,6 @@
 [
     {
-      "id": 1,
+      "id":"1",
       "name": "隱家拉麵",
       "image": "../public/images/yinjia.png",
       "detail": "#豚骨拉麵",
@@ -9,7 +9,7 @@
       "opening_hours": "11:00-22:00"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "池音",
       "image": "../public/images/cying.png",
       "detail": "#雞白湯拉麵",
@@ -18,7 +18,7 @@
       "opening_hours": "11:00-22:00"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "長生塩人",
       "image": "../public/images/csyr.png",
      "detail": "#清湯拉麵",
@@ -27,7 +27,7 @@
      "opening_hours": "11:00-22:00"
     },
     {
-        "id": 4,
+        "id": "4",
         "name": "二屋",
         "image": "../public/images/erwuu.png",
         "detail": "#雞白湯拉麵",
@@ -36,7 +36,7 @@
         "opening_hours": "11:00-22:00"
       },
       {
-        "id": 5,
+        "id": "5",
         "name": "麒麟",
         "image": "../public/images/yinjia.png",
         "detail": "#雞白湯拉麵",
@@ -45,7 +45,7 @@
         "opening_hours": "11:00-22:00"
       },
       {
-        "id": 6,
+        "id": "6",
         "name": "伊禾白湯",
         "image": "../public/images/yinjia.png",
         "detail": "#雞白湯拉麵",
@@ -54,7 +54,7 @@
         "opening_hours": "11:00-22:00"
       },
       {
-        "id": 7,
+        "id": "7",
         "name": "二屋",
         "image": "../public/images/erwuu.png",
         "detail": "#雞白湯拉麵",
@@ -63,7 +63,7 @@
         "opening_hours": "11:00-22:00"
       },
       {
-        "id":8,
+        "id":"8",
         "name": "麒麟",
         "image": "../public/images/yinjia.png",
         "detail": "#雞白湯拉麵",
@@ -72,7 +72,7 @@
         "opening_hours": "11:00-22:00"
       },
       {
-        "id": 9,
+        "id": "9",
         "name": "伊禾白湯",
         "image": "../public/images/yinjia.png",
         "detail": "#雞白湯拉麵",

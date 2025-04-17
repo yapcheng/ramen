@@ -1,62 +1,62 @@
 [
     {
-      "id": 1,
+      "id": "1",
       "name": "隱家拉麵",
       "image": "/images/yinjia.png",
       "category":"豚骨",
       "detail": "#豚骨拉麵"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "池音",
       "image": "/images/cying.png",
       "category":"雞白湯",
       "detail": "#雞白湯拉麵"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "長生塩人",
       "image": "/images/csyr.png",
       "category":"其他",
      "detail": "#清湯拉麵"
     },
     {
-        "id": 4,
+        "id": "4",
         "name": "二屋",
         "image": "/images/erwuu.png",
         "category":"雞白湯",
         "detail": "#雞白湯拉麵"
       },
       {
-        "id": 5,
+        "id": "5",
         "name": "麒麟",
         "image": "/images/yinjia.png",
         "category":"雞白湯",
         "detail": "#雞白湯拉麵"
       },
       {
-        "id": 6,
+        "id": "6",
         "name": "伊禾白湯",
         "image": "/images/yinjia.png",
         "category":"雞白湯",
         "detail": "#雞白湯拉麵"
       },
       {
-        "id": 7,
+        "id": "7",
         "name": "二屋",
         "image": "/images/erwuu.png",
         "category":"雞白湯",
         "detail": "#雞白湯拉麵"
       },
       {
-        "id":8,
+        "id":"8",
         "name": "麒麟",
         "image": "/images/yinjia.png",
         "category":"雞白湯",
         "detail": "#雞白湯拉麵"
       },
       {
-        "id": 9,
+        "id": "9",
         "name": "伊禾白湯",
         "image": "/images/yinjia.png",
         "category":"雞白湯",
