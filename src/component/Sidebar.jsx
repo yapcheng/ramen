@@ -11,7 +11,7 @@ export default function Sidebar({ selected, onSelect }) {
     ];
   
     return (
-      <div className="hidden md:flex flex-col col-span-3 bg-[#C68E2E] xl:col-span-2 py-2 px-15 text-center space-y-2">
+      <div className="hidden md:flex flex-col col-span-3 bg-[#D9B87D] xl:col-span-2 py-10 px-5 text-center space-y-2 rounded-4xl shadow-xs">
         {menuItems.map((item) => {
           const isActive = (item === "拉麵一覽" && selected === "全部") || selected === item;
   

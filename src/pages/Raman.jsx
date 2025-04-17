@@ -12,7 +12,7 @@ function Raman() {
    );
 
     return (
-      <div className="  mx-auto main-layout bg-gray-900 min-h-screen">
+      <div className="  mx-auto main-layout bg-[#F3E8D0] min-h-screen">
         <Header />
         <RamanDetail raman={raman} />
         <Footer />

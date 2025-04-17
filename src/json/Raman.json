@@ -1,65 +1,143 @@
 [
-    {
-      "id": "1",
-      "name": "隱家拉麵",
-      "image": "/images/yinjia.png",
-      "category":"豚骨",
-      "detail": "#豚骨拉麵"
-    },
-    {
-      "id": "2",
-      "name": "池音",
-      "image": "/images/cying.png",
-      "category":"雞白湯",
-      "detail": "#雞白湯拉麵"
-    },
-    {
-      "id": "3",
-      "name": "長生塩人",
-      "image": "/images/csyr.png",
-      "category":"其他",
-     "detail": "#清湯拉麵"
-    },
-    {
-        "id": "4",
-        "name": "二屋",
-        "image": "/images/erwuu.png",
-        "category":"雞白湯",
-        "detail": "#雞白湯拉麵"
-      },
-      {
-        "id": "5",
-        "name": "麒麟",
-        "image": "/images/yinjia.png",
-        "category":"雞白湯",
-        "detail": "#雞白湯拉麵"
-      },
-      {
-        "id": "6",
-        "name": "伊禾白湯",
-        "image": "/images/yinjia.png",
-        "category":"雞白湯",
-        "detail": "#雞白湯拉麵"
-      },
-      {
-        "id": "7",
-        "name": "二屋",
-        "image": "/images/erwuu.png",
-        "category":"雞白湯",
-        "detail": "#雞白湯拉麵"
-      },
-      {
-        "id":"8",
-        "name": "麒麟",
-        "image": "/images/yinjia.png",
-        "category":"雞白湯",
-        "detail": "#雞白湯拉麵"
-      },
-      {
-        "id": "9",
-        "name": "伊禾白湯",
-        "image": "/images/yinjia.png",
-        "category":"雞白湯",
-        "detail": "#雞白湯拉麵"
-      }
-  ]
+  {
+    "id": "1",
+    "name": "隱家拉麵",
+    "image": "/images/yinjia.png",
+    "category": "豚骨",
+    "detail": "#豚骨拉麵  濃厚湯頭搭配自製叉燒"
+  },
+  {
+    "id": "2",
+    "name": "池音",
+    "image": "/images/cying.png",
+    "category": "雞白湯",
+    "detail": "#雞白湯拉麵 溫潤濃郁的雞湯底 "
+  },
+  {
+    "id": "3",
+    "name": "長生塩人",
+    "image": "/images/csyr.png",
+    "category": "其他",
+    "detail": "#清湯拉麵 醬油與魚介風味並存 "
+  },
+  {
+    "id": "4",
+    "name": "二屋",
+    "image": "/images/erwuu.png",
+    "category": "其他",
+    "detail": "#牡蠣拉麵 貝類海鮮湯底 香氣濃郁 海味十足"
+  },
+  {
+    "id": "5",
+    "name": "鬼金棒",
+    "image": "/images/gjb.png",
+    "category": "其他",
+    "detail": "#麻辣拉麵 濃厚系 辣味控必吃"
+  },
+  {
+    "id": "6",
+    "name": "一蘭拉麵",
+    "image": "/images/yl.png",
+    "category": "豚骨",
+    "detail": "#豚骨拉麵 濃郁湯頭 客製化點餐體驗"
+  },
+  {
+    "id": "7",
+    "name": "花月嵐",
+    "image": "/images/hyl-2.png",
+    "category": "豚骨",
+    "detail": "#豚骨拉麵 大蒜香氣濃郁 重口味愛好者推薦"
+  },
+  {
+    "id": "8",
+    "name": "麵屋一燈",
+    "image": "/images/mwyd.png",
+    "category": "雞白湯",
+    "detail": "#雞白湯拉麵 東京名店雞白湯 清爽濃郁兼具"
+  },
+  {
+      "id": "9",
+      "name": "茶悟拉麵",
+      "image": "/images/cw.png",
+      "category": "其他",
+      "detail": "#創意拉麵 結合抹茶與雞湯 清爽又獨特"
+    
+  },
+  {
+    "id": "10",
+    "name": "屯京拉麵",
+    "image": "",
+    "category": "豚骨",
+    "detail": "#豚骨拉麵 東京風格湯濃麵Q"
+  },
+  {
+    "id": "11",
+    "name": "鷹流拉麵",
+    "image": "",
+    "category": "其他",
+    "detail": "#魚介系拉麵 鰹魚湯頭 清爽不膩"
+  },
+  {
+    "id": "12",
+    "name": "Nagi凪",
+    "image": "",
+    "category": "豚骨",
+    "detail": "#豚骨拉麵 可自由搭配湯頭與風味球"
+  },
+  {
+    "id": "13",
+    "name": "麵屋武藏",
+    "image": "",
+    "category": "豚骨",
+    "detail": "#豚骨拉麵 大塊叉燒 湯濃味厚"
+  },
+  {
+    "id": "14",
+    "name": "勝王",
+    "image": "",
+    "category": "醬油",
+    "detail": "#醬油拉麵 職人系日式風味 清湯濃厚兼具"
+  },
+  {
+    "id": "15",
+    "name": "銀座篝",
+    "image": "",
+    "category": "雞白湯",
+    "detail": "#雞白湯拉麵 高湯純淨濃厚 東京米其林推薦名店"
+  },
+  {
+    "id": "16",
+    "name": "豚骨家",
+    "image": "",
+    "category": "豚骨",
+    "detail": "#豚骨拉麵 經典日式風味 湯濃不膩"
+  },
+  {
+    "id": "17",
+    "name": "五之神製作所",
+    "image": "",
+    "category": "其他",
+    "detail": "#蝦味拉麵 招牌濃厚蝦湯頭 重口味必吃"
+  },
+  {
+    "id": "18",
+    "name": "山嵐拉麵",
+    "image": "",
+    "category": "豚骨",
+    "detail": "#豚骨拉麵 北海道系 白湯濃郁不膩"
+  },
+  {
+      "id": "19",
+      "name": "湮鯱拉麵",
+      "image": "",
+      "category": "豚骨",
+      "detail": "#豚骨拉麵 濃厚系 湯底香醇 手工麵條"
+  },
+  {
+    "id": "20",
+    "name": "雞吉君",
+    "image": "",
+    "category": "雞白湯",
+    "detail": "#雞白湯拉麵 雞湯溫潤濃厚 店內風格可愛"
+  }
+]

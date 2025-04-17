@@ -23,7 +23,7 @@ function Home() {
 
         <div className="md:col-span-9 xl:col-span-10">
           <CategoryFilter selected={category} onSelect={setCategory} />
-          <RamanList ramanArray={ramanData}/>
+          <RamanList ramanArray={filteredRaman}/>
         </div>
       </div>
       <Footer />

@@ -6,19 +6,19 @@ function Footer()  {
                 <div className="mt-4">
                     <a
                         href="#"
-                        className="text-gray-400 hover:text-white mx-2 transition-colors duration-300"
+                        className="text-white hover:text-black mx-2 transition-colors duration-300"
                     >
                         Privacy Policy
                     </a>
                     <a
                         href="#"
-                        className="text-gray-400 hover:text-white mx-2 transition-colors duration-300"
+                        className="text-white hover:text-black mx-2 transition-colors duration-300"
                     >
                         Terms of Service
                     </a>
                     <a
                         href="#"
-                        className="text-gray-400 hover:text-white mx-2 transition-colors duration-300"
+                        className="text-white hover:text-black mx-2 transition-colors duration-300"
                     >
                         Contact Us
                     </a>

@@ -6,7 +6,7 @@ function RamanDetail({raman}) {
           <img
             alt={raman.name}
             className="w-full h-96 object-cover object-center rounded-md"
-            src={raman.image}
+            src={raman.image||"../public/images/default-image.png"}
           />
         </div>
         </div>
