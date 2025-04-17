@@ -1,6 +1,6 @@
 import Raman from "../json/raman.json";
 
-function RamenList() {
+function RamanList() {
 
   return (
    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 p-10 rounded-xl ">
@@ -15,4 +15,4 @@ function RamenList() {
    </div>
   );
 }
-export default RamenList;
+export default RamanList;
