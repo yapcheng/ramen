@@ -12,8 +12,8 @@ function RamanDetail({raman}) {
           />
         </div>
 
-        <div className=" justify-center col-span-10 col-start-2 mb-5 bg-[#D9B87D] rounded-md p-5 lg:col-span-10 lg:col-start-12 lg:my-10 self-start">
-          <div className="flex  flex-col justify-center">
+        <div className="  justify-center  col-span-10 col-start-2 mb-5 bg-[#D9B87D] rounded-md p-5 lg:col-span-10 lg:col-start-12 lg:my-10 self-center ">
+          <div className="flex  flex-col  justify-center">
                 <h1 className="flex items-baseline-last justify-center text-4xl pb-5">
                     <span>{raman.name}</span>
                 <span className=" ml-4  text-[14px] ">評分：{raman.score}顆星</span>
@@ -51,8 +51,9 @@ function RamanDetail({raman}) {
             </p>
             </div>
             </div>
-            </div>
-            <div className=" justify-center col-span-10 col-start-2 mb-5 bg-[#D9B87D] rounded-md p-5 lg:col-span-19 lg:col-start-3 lg:my-10 self-start" >
+        </div>
+
+        <div className=" justify-center col-span-10 col-start-2 mb-5 bg-[#D9B87D] rounded-md p-5 lg:col-span-19 lg:col-start-3 lg:my-10 self-start" >
             <p className="text-[14px] text-center">
             <span className="font-bold">餐廳簡介：</span>
             <br />
