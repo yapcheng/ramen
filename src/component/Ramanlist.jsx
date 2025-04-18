@@ -12,7 +12,7 @@ function RamanList({ ramanArray }) {
           
         <div className=" bg-amber-50 rounded-3xl shadow-xl py-5">
                <Link to={`/raman/${raman.id}`} >
-               <img src={raman.image || "../public/images/default-image.png" } alt={raman.name} className="w-full h-48 object-contain"/>
+               <img src={raman.image ||"../public/images/default-image.png" } alt={raman.name} className="w-full h-48 object-contain"/>
               </Link>
                 
                 <h1 className="text-[24px] font-bold text-center">{raman.name}</h1>
