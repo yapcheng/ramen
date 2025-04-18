@@ -8,7 +8,7 @@ function RamanDetail({raman}) {
           <img
             alt={raman.name}
             className="w-full h-auto max-h-96 object-contain object-center rounded-md "
-            src={raman.image ||"../public/images/default-image.png"}
+            src={raman.image ||"/images/default-image.png"}
           />
         </div>
 
