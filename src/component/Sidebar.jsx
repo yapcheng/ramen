@@ -19,9 +19,7 @@ export default function Sidebar({ selected, onSelect }) {
             <div
               key={item}
               onClick={() => onSelect(item === "拉麵一覽" ? "全部" : item)}
-              className={`cursor-pointer text-[24px] font-bold leading-snug ${
-                isActive ? "underline" : ""
-              } text-black`}              
+              className={`cursor-pointer text-[24px] font-bold leading-snug  text-black${ isActive ? "bg-amber-50" : "hover:text-amber-50" } rounded-full py-2 px-4 transition duration-300 ease-in-out`}              
             >
               {item}
             </div>
