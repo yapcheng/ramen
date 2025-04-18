@@ -6,7 +6,7 @@ import RamanList from "../component/Ramanlist";
 import Footer from "../component/Footer";
 import Sidebar from "../component/Sidebar";
 import CategoryFilter from "../component/CategoryFilter"; 
-import ramanData from "../json/Raman.json";
+import ramanData from "../json/raman.json";
 
 function Home() {
   const [category, setCategory] = useState("全部");
