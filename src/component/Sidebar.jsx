@@ -5,9 +5,7 @@ export default function Sidebar({ selected, onSelect }) {
       "豚骨",
       "醬油",
       "其他",
-      "排行榜",
-      "我的最愛",
-      "會員登入"
+      
     ];
   
     return (
