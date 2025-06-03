@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { addComment } from "../redux/commentSlice";
+import { addComment } from "@/redux/commentSlice";
 import { useState } from "react";
 import CommentSection from "../component/CommentSection";
 
