@@ -1,6 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { addComment } from "../redux/commentSlice";
 import { useState } from "react";
+import CommentSection from "../component/CommentSection";
 
 
 
@@ -62,38 +63,18 @@ function RamanDetail({ raman }) {
         </div>
       </div>
 
-     
-      <div className="mt-6 max-w-5xl w-full bg-[#F3E8D0] p-6 rounded-xl text-sm leading-loose text-gray-800">
+      
+      <div className="mt-6 max-w-5xl w-full bg-amber-50 p-6 rounded-xl text-sm leading-loose text-gray-800">
         <p>
           <span className="font-bold">餐廳簡介：</span><br />
           {raman.introduce}
         </p>
       </div> 
-      <div className="mt-6 max-w-5xl w-full bg-amber-50 p-6 rounded-xl space-y-4">
-        <h2 className="text-xl font-bold">評分及評論</h2>
-
-        {comments.map((cmt, idx) => (
-          <div key={idx} className="bg-[#F3E8D0] p-4 rounded-lg text-sm">
-            {cmt}
-          </div>
-        ))}
-         <div className="flex gap-2 items-start mt-4">
-          <textarea
-            value={newComment}
-            onChange={(e) => setNewComment(e.target.value)}
-            placeholder="留下你的評論..."
-            className="w-full p-2 rounded-md border border-gray-300 resize-none"
-          />
-          <button
-            onClick={handleAdd}
-            className="bg-[#D9B87D] px-4 py-5 rounded-md hover:bg-yellow-400"
-          >
-            +Add
-          </button>
-          </div>
+     
+           <CommentSection ramanId={raman.id} />
     </div>
     
-    </div>
+   
    
     );
 }
