@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { addComment } from "@/redux/commentSlice";
 import { useState } from "react";
 import CommentSection from "@/component/CommentSection";
-import Favoritebtn from "@/component/Favoritebtn";
+import Favoritebtn from "@/component/Favoritebtn.jsx";
 
 
 function RamanDetail({ raman }) {
