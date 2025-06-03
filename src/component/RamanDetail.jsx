@@ -1,8 +1,8 @@
 import { useDispatch, useSelector } from "react-redux";
 import { addComment } from "@/redux/commentSlice";
 import { useState } from "react";
-import CommentSection from "../component/CommentSection";
-
+import CommentSection from "@/component/CommentSection";
+import Favoritebtn from "@/component/Favoritebtn";
 
 
 function RamanDetail({ raman }) {
@@ -16,6 +16,7 @@ function RamanDetail({ raman }) {
       setNewComment("");
     }
   };
+
   return (
     <div className="bg-[#F3E8D0] min-h-screen p-8 flex flex-col items-center">
       
@@ -31,15 +32,15 @@ function RamanDetail({ raman }) {
         <div className="flex flex-col justify-between gap-4 flex-1">
           
           <div className="flex items-center gap-2">
-          <h1 className="text-4xl font-black text-neutral-800 tracking-wide">{raman.name}
-          </h1>
+          <h1 className="text-4xl font-black text-neutral-800 tracking-wide">{raman.name}</h1>
             <span className="text-yellow-400 text-2xl">
               {"★".repeat(raman.score || 4)}
             </span>
+            <Favoritebtn/>
           </div>
 
           
-          <div className="bg-[#F3E8D0] text-sm text-black p-4 rounded-xl space-y-2 leading-relaxed">
+          <div className="bg-[#F3E8D0] w-full h-full text-sm text-black p-4 rounded-xl space-y-2 leading-relaxed">
             <p><span className="font-bold">電話：</span>{raman.phone}</p>
             <p><span className="font-bold">營業時間：</span>{raman.opening_hours}</p>
             <div>
