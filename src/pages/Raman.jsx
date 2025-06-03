@@ -1,7 +1,7 @@
-import Header from "../component/Header";
-import RamanDetail from "../component/RamanDetail";
-import Footer from "../component/Footer";
-import products from "../json/Raman_detail.json";
+import Header from "@/component/Header";
+import RamanDetail from "@/component/RamanDetail";
+import Footer from "@/component/Footer";
+import products from "@/json/Raman_detail.json";
 
 import { useParams } from "react-router";
 import { Helmet } from "react-helmet-async";

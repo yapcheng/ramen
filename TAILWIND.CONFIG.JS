@@ -8,6 +8,7 @@ module. exports = {
           headline: ['Monoton', 'sans-serif'],
         }
       },
+    plugins: [require('daisyui')],
       
     
     plugins: [require("daisyui")],

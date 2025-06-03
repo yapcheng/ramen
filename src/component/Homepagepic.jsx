@@ -1,6 +1,6 @@
 function HomepagePic() {
   return (
-    <div className="flex justify-center bg-black h-[50vh] "> 
+    <div className="flex justify-center bg-black h-[50vh] z-10  "> 
 
     <img className=' w-auto h-full overflow-hidden' src="/images/ramen.jpg" alt="Ramen" />
 

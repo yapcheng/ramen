@@ -62,8 +62,8 @@ function RamanDetail({ raman }) {
         </div>
       </div>
 
-      
-      <div className="mt-6 max-w-5xl w-full bg-amber-50 p-6 rounded-xl text-sm leading-loose text-gray-800">
+     
+      <div className="mt-6 max-w-5xl w-full bg-[#F3E8D0] p-6 rounded-xl text-sm leading-loose text-gray-800">
         <p>
           <span className="font-bold">餐廳簡介：</span><br />
           {raman.introduce}
