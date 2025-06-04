@@ -6,6 +6,7 @@ import Ramen from './pages/Raman'
 import { HelmetProvider } from 'react-helmet-async';
 import Myfavorite from './pages/Myfavorite';
 import Ranking from './pages/Ranking';
+import Login from './pages/Login';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/raman/:ramanId" element={<Ramen />} />
         <Route path="/Myfavorite" element={<Myfavorite />} />
         <Route path="/Ranking" element={<Ranking />} />
+        <Route path="/Login" element={<Login />} />
       </Routes>
     </BrowserRouter> 
   </HelmetProvider>

@@ -4,7 +4,7 @@ export default function Navbar() {
     const navbarcontent=[
         {to:"/Myfavorite",label:"我的最愛"},
         {to:"/Ranking",label:"排行榜"},
-        {to:"/",label:"會員登入"}
+        {to:"/Login",label:"會員登入"}
     ];
        
     return(
