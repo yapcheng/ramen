@@ -33,7 +33,7 @@ export default function RankingList() {
 
   return (
     <div className="p-8 max-w-5xl mx-auto">
-      <h1 className="text-3xl font-bold mb-6 text-center">拉麵排行榜 🍜🔥</h1>
+      <h1 className="text-3xl font-bold mb-6 text-center">拉麵排行榜 </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {ranking.map((ramen, index) => (
           <div key={ramen.id} className="bg-yellow-50 p-4 rounded-xl shadow-lg">

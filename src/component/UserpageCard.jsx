@@ -17,16 +17,16 @@ export default function UserpageCard() {
   return (
     <div className=" bg-[#F3E8D0] flex items-center justify-center px-4">
   <div className="bg-white rounded-xl shadow-lg p-10 max-w-md w-full text-center space-y-6">
-    {/* 標題 */}
+  
     <h1 className="text-3xl font-bold text-[#3B3B3B]">會員介面</h1>
 
-    {/* 使用者資訊 */}
+    
     <div>
       <p className="text-xl font-semibold text-[#555]">歡迎來到會員介面！</p>
       <p className="text-lg text-[#777]">{user?.email}</p>
     </div>
 
-    {/* 登出按鈕 */}
+  
     <button
       onClick={() => {
         signOut(firebaseAuth);
