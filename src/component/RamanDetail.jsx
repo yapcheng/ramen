@@ -2,8 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { addComment } from "@/redux/commentSlice";
 import { useState } from "react";
 import CommentSection from "@/component/CommentSection";
-import Favoritebtn from "@/component/Favoritebtn.jsx";
-
+import Favoritebtn from "@/component/Favoritebtn";
 
 function RamanDetail({ raman }) {
   const dispatch = useDispatch();
@@ -36,7 +35,7 @@ function RamanDetail({ raman }) {
             <span className="text-yellow-400 text-2xl">
               {"★".repeat(raman.score || 4)}
             </span>
-            <Favoritebtn/>
+           
           </div>
 
           
@@ -71,8 +70,12 @@ function RamanDetail({ raman }) {
           {raman.introduce}
         </p>
       </div> 
-     
-           <CommentSection ramanId={raman.id} />
+      <div className="mt-6 max-w-5xl w-full">
+        <CommentSection ramanId={raman.id} />
+        <div className="flex justify-end mt-4">
+         <Favoritebtn ramanId={raman.id} />
+        </div>
+      </div>
     </div>
     
    
