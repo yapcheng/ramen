@@ -1,12 +1,17 @@
 import Header from "@/component/Header";
 import Footer from "@/component/Footer";
+import { Helmet } from "react-helmet-async";
+import FavoriteList from "../component/FavoriteList";
 
 function Myfavorite() {
   return (
     <div className="mx-auto main-layout bg-[#F3E8D0] min-h-screen">
+        <Helmet>
+              <title>我的收藏</title>
+        </Helmet>
       <Header />
-      <div className="flex justify-center items-center h-[80vh]">
-        <h1 className="text-4xl font-bold text-gray-700">我的最愛</h1>
+      <div className="py-10 px-4">
+        <FavoriteList />
       </div>
       <Footer />
     </div>

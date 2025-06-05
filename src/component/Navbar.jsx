@@ -2,7 +2,7 @@ import { NavLink } from "react-router";
 
 export default function Navbar() {
     const navbarcontent=[
-        {to:"/Myfavorite",label:"我的最愛"},
+        {to:"/Myfavorite",label:"我的收藏"},
         {to:"/Ranking",label:"排行榜"},
         {to:"/Login",label:"會員登入"}
     ];

@@ -57,7 +57,7 @@ function FirebaseCommentSection({ ramanId }) {
     uid: user.uid,
     timestamp: serverTimestamp(),
   });
-  setNewComment(""); // ✅ 確保清除輸入框
+  setNewComment("");
   };
 
   const handleDelete = async (commentId) => {
