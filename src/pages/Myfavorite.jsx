@@ -10,7 +10,7 @@ function Myfavorite() {
               <title>我的收藏</title>
         </Helmet>
       <Header />
-      <div className="py-10 px-4">
+      <div className="py-10 px-4 min-h-[80vh]">
         <FavoriteList />
       </div>
       <Footer />
