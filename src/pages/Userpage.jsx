@@ -1,18 +1,18 @@
 import Header from "@/component/Header";
 import Footer from "@/component/Footer";
 import { Helmet } from "react-helmet-async";
-import Loginsection from "@/component/Loginsection";
+import UserpageCard from "@/component/UserpageCard";
 
-function Login() {
+function  Userpage() {
   return (
     <div className="grid  grid-rows-[auto_1fr_auto] bg-[#F3E8D0] min-h-screen">
         <Helmet>
-            <title>會員登入</title>
+            <title>會員介面</title>
         </Helmet>
         <Header />
-        <Loginsection />
+        <UserpageCard />
         <Footer  />
     </div>
   );
 }
-export default Login;
+export default Userpage;

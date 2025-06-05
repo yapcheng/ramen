@@ -2,8 +2,8 @@
 
 // 1. 引入 Firebase SDK
 import { initializeApp } from "firebase/app";
-
 import { getFirestore } from "firebase/firestore";
+import { getAuth } from "firebase/auth";
 
 // 2. 你的 Firebase 專案設定
 const firebaseConfig = {
@@ -21,6 +21,8 @@ const app = initializeApp(firebaseConfig);
 
 // 4. 初始化 Analytics（可選）
 const db = getFirestore(app);
+const firebaseAuth = getAuth(app);
 
 // 5. 初始化 Firestore（🔥這是你之後要用的）
 export  { db };
+export { firebaseAuth };
