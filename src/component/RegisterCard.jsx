@@ -1,7 +1,9 @@
 import React,{useState} from 'react';
 import { Link ,useNavigate} from 'react-router';
-import {firebaseAuth} from '../firebase';
+import {firebaseAuth, db} from '../firebase';
 import {createUserWithEmailAndPassword,onAuthStateChanged } from 'firebase/auth';
+import { doc, setDoc } from 'firebase/firestore';
+
 
 export default function RegisterCard() {   
     const [email,setEmail] = useState("");
@@ -13,22 +15,30 @@ export default function RegisterCard() {
         e.preventDefault();
 
         try {
-            await createUserWithEmailAndPassword(firebaseAuth, email, password);
-            console.log("註冊成功:", userCredential.user);
+            const userCredential = await createUserWithEmailAndPassword(firebaseAuth, email, password);
+            const user = userCredential.user;
+            console.log("註冊成功:", user);
+           
 
-    // 👉 註冊後清空欄位
-            setEmail("");
+            await setDoc(doc(db, "users", user.uid), {
+                uid: user.uid,
+                username,
+                email,
+                createAt: new Date().toISOString(),
+            });
+            
+            setEmail(""); 
             setPassword("");
-             setUsername("");
+            setUsername("");
 
         } catch (error) {
             console.log("註冊失敗:", error);
         }
     }
 
+
     onAuthStateChanged(firebaseAuth, (currentUser) => {
         if (currentUser)navigate("/Userpage");
-
         });
 
     return (    
@@ -77,12 +87,13 @@ export default function RegisterCard() {
                     註冊
                 </button>
 
-            </form>
-
-            <span className="mt-4 text-gray-600">已經有帳號了？ 
-                <Link to="/Login" className="text-[#D9B87D] hover:underline">會員登入</Link>
+            <span className="mt-4 flex justify-center text-gray-600">已經有帳號了？ 
+            <Link to="/Login" className="text-[#D9B87D] hover:underline">會員登入</Link>
             </span>
         
+            </form>
+
+            
         </div>
 
         </>
