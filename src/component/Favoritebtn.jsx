@@ -17,8 +17,7 @@ export default function Favoritebtn({ ramanId }) {
   const user = firebaseAuth.currentUser;
 
   useEffect(() => {
-    if (!user) return;
-
+  
     const ramenRef = doc(db, "ramen", ramanId);
 
     

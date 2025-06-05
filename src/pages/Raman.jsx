@@ -12,7 +12,7 @@ function Raman() {
     const raman = products.find((x) => x.id === ramanId);
    
     return (
-      <div className="  mx-auto main-layout bg-[#F3E8D0] min-h-screen">
+      <div className="  mx-auto main-layout bg-[#F3E8D0] ">
         <Helmet> <title>{raman.name}</title></Helmet>
         <Header />
         <RamanDetail raman={raman} />
